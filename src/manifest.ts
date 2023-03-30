@@ -2,7 +2,7 @@ import { ManifestV3Export } from '@crxjs/vite-plugin';
 
 const manifest: ManifestV3Export = {
   manifest_version: 3,
-  name: 'Browser Extension TypeScript & React Starter',
+  name: 'king of iruca',
   description: 'Browser Extension, TypeScript, React',
   version: '0.1',
   background: {
@@ -10,7 +10,7 @@ const manifest: ManifestV3Export = {
   },
   content_scripts: [
     {
-      matches: ['http://*/*', 'https://*/*', 'file:///*'],
+      matches: ['https://s2.kingtime.jp/independent/recorder2/personal/'],
       js: ['src/content/index.tsx'],
     },
   ],
